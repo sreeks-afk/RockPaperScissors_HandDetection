@@ -1,0 +1,12 @@
+The photos are taken from Kaggle.
+
+The dataset is Rock, Paper, Scissors Dataset by Roman Glushko 🦁 · Anastasia Smirnova.
+
+We can download it from website or access this code:
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("glushko/rock-paper-scissors-dataset")
+
+print("Path to dataset files:", path)
